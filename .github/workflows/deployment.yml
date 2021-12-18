@@ -23,5 +23,5 @@ jobs:
           remote: /var/www/val-hob.de/html/build
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          privateKey: ${{ secrets.PRIVATEKEY }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
